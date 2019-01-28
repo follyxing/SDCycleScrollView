@@ -14,6 +14,7 @@
 		485B54781C3A196C001944FA /* pageControlDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 485B54741C3A196C001944FA /* pageControlDot@3x.png */; };
 		485B54791C3A196C001944FA /* pageControlCurrentDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 485B54751C3A196C001944FA /* pageControlCurrentDot@3x.png */; };
 		485B547A1C3A196C001944FA /* pageControlCurrentDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 485B54761C3A196C001944FA /* pageControlCurrentDot@2x.png */; };
+		60905BE421FEA592002589B8 /* SDCollectionViewAppStoreStyleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60905BE321FEA592002589B8 /* SDCollectionViewAppStoreStyleFlowLayout.m */; };
 		6BAA27FD1EFEA798008693AB /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA27FC1EFEA798008693AB /* CustomCollectionViewCell.m */; };
 		9900D1741ABEB2490077A6CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900D1731ABEB2490077A6CB /* main.m */; };
 		9900D1771ABEB2490077A6CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900D1761ABEB2490077A6CB /* AppDelegate.m */; };
@@ -57,6 +58,8 @@
 		485B54761C3A196C001944FA /* pageControlCurrentDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@2x.png"; sourceTree = "<group>"; };
 		5901AA37D1ED166BA94A95E0 /* Pods-SDCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		5F55240E74603C429F5220D2 /* Pods-SDCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		60905BE221FEA592002589B8 /* SDCollectionViewAppStoreStyleFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewAppStoreStyleFlowLayout.h; sourceTree = SOURCE_ROOT; };
+		60905BE321FEA592002589B8 /* SDCollectionViewAppStoreStyleFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewAppStoreStyleFlowLayout.m; sourceTree = SOURCE_ROOT; };
 		6BAA27FB1EFEA798008693AB /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
 		6BAA27FC1EFEA798008693AB /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 		9900D16E1ABEB2490077A6CB /* SDCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +235,8 @@
 		99E7B30A1AC11F1C009F9A2E /* SDCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				60905BE221FEA592002589B8 /* SDCollectionViewAppStoreStyleFlowLayout.h */,
+				60905BE321FEA592002589B8 /* SDCollectionViewAppStoreStyleFlowLayout.m */,
 				990141051AC9420E00D0D74F /* SDCollectionViewCell.h */,
 				990141061AC9420E00D0D74F /* SDCollectionViewCell.m */,
 				990141071AC9420E00D0D74F /* SDCycleScrollView.h */,
@@ -431,6 +436,7 @@
 				9900D17A1ABEB2490077A6CB /* ViewController.m in Sources */,
 				990141031AC941FD00D0D74F /* TADotView.m in Sources */,
 				990141011AC941FD00D0D74F /* TAAbstractDotView.m in Sources */,
+				60905BE421FEA592002589B8 /* SDCollectionViewAppStoreStyleFlowLayout.m in Sources */,
 				6BAA27FD1EFEA798008693AB /* CustomCollectionViewCell.m in Sources */,
 				990141021AC941FD00D0D74F /* TAAnimatedDotView.m in Sources */,
 				9901410D1AC9420E00D0D74F /* UIView+SDExtension.m in Sources */,
